@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Raleway } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/components/Header";
+import { SectionHeader } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
 const cormorant = Cormorant_Garamond({
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   description:
     "Chambres d'hôtes et gîte de charme dans une maison béarnaise de 1702, sur les coteaux de Monein, entre vignes du Jurançon et Pyrénées.",
   openGraph: {
-    siteName: "Maison Pésaulhé",
+    siteName: "Maison Pesaulhe",
     locale: "fr_FR",
     type: "website",
   },
@@ -38,10 +38,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
+    return (
     <html lang="fr" className={`${cormorant.variable} ${raleway.variable}`}>
       <body className="min-h-screen flex flex-col">
-        <Header />
+        <SectionHeader title="Maison Pesaulhe" />
         <main className="flex-1">{children}</main>
         <Footer />
       </body>

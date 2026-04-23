@@ -10,7 +10,7 @@ export function Story() {
         <div className="lg:col-span-6 relative">
           <div className="aspect-[4/5] overflow-hidden shadow-editorial">
             <Image
-              src="/photos/farmhouse-detail.jpg"
+              src="/public/farmhouse-detail.jpg"
               alt="Façade en pierre de la maison béarnaise"
               fill
               loading="lazy"
@@ -20,7 +20,7 @@ export function Story() {
           </div>
           <div className="absolute -bottom-12 -right-4 lg:-right-12 w-2/3 aspect-[4/3] overflow-hidden shadow-frame border-8 border-background hidden md:block">
             <Image
-              src="/photos/maison.jpg"
+              src="/public/maison.jpg"
               alt="Détail de la maison"
               fill
               loading="lazy"

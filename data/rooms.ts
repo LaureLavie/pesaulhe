@@ -10,18 +10,18 @@ export interface Room {
 
 export const rooms: Room[] = [
   {
-    slug: "chambre-antan",
+    slug: "chambre-MansengFolies",
     name: "L'Antan",
-    image: "/images/rooms/antan.jpg", 
+    image: "/public/manseng-1.jpg", 
     price: 95,
     tagline: "Le charme des vieux parquets",
     excerpt: "Une immersion dans le temps avec tout le confort moderne. Cette chambre située dans la maison principale offre une vue imprenable sur le jardin.",
     capacity: "2 personnes",
   },
   {
-    slug: "chambre-boheme",
+    slug: "chambre-roussane",
     name: "La Bohème",
-    image: "/images/rooms/boheme.jpg",
+    image: "/public/roussane.jpg",
     price: 110,
     tagline: "Douceur et poésie",
     excerpt: "Une atmosphère lumineuse aux tons naturels. Idéale pour une escapade romantique sous le signe de la sérénité et de la lecture.",
@@ -30,7 +30,7 @@ export const rooms: Room[] = [
   {
     slug: "gite-independant",
     name: "Le Gîte",
-    image: "/images/rooms/gite.jpg",
+    image: "/public/autour.jpg",
     price: 150,
     tagline: "Comme à la maison",
     excerpt: "Une petite maison de pierre totalement indépendante avec cuisine équipée et terrasse privée pour vivre à votre propre rythme.",

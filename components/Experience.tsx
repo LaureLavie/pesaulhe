@@ -6,19 +6,19 @@ const experiences = [
   {
     title: "Le vignoble du Jurançon",
     description: "Caves, dégustations et coteaux ondulants à perte de vue.",
-    img: "/photos/vignoble.jpg",
+    img: "/public/vignoble.jpg",
   },
   {
     title: "Vallée d'Ossau & Pyrénées",
     description:
       "Randonnées, lacs d'altitude, fromages d'estive et villages de pierre.",
-    img: "/photos/vignes-vallees.jpg",
+    img: "/public/vignes-vallees.jpg",
   },
   {
     title: "Marchés & terroir béarnais",
     description:
       "Pêches de Monein, garbure, fromage de brebis et grands moments à table.",
-    img: "/photos/autour.jpg",
+    img: "/public/autour.jpg",
   },
 ];
 

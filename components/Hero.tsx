@@ -7,7 +7,7 @@ export function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="/photos/hero-pyrenees.jpg"
+          src="/public/hero-pyrenees.jpg"
           alt="Vue sur les vignes du Jurançon et les Pyrénées au coucher du soleil"
           fill
           priority
