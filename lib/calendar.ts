@@ -13,6 +13,12 @@ export async function getCombinedBookings(): Promise<BookedRange[]> {
     process.env.BOOKING_ICAL_URL  // Lien .ics Booking
   ].filter(Boolean) as string[];
 
+  // Si aucune URL n'est configurée, on s'arrête tout de suite sans erreur
+  if (urls.length === 0) {
+    console.warn("Aucune URL iCal configurée dans les variables d'environnement.");
+    return [];
+  }
+
   let allEvents: BookedRange[] = [];
 
   for (const url of urls) {
@@ -26,7 +32,8 @@ export async function getCombinedBookings(): Promise<BookedRange[]> {
         }));
       allEvents = [...allEvents, ...ranges];
     } catch (error) {
-      console.error(`Erreur lors de la récupération du calendrier : ${url}`, error);
+      console.error(`Erreur iCal pour ${url}:`, error);
+      // On ne "throw" pas l'erreur pour ne pas bloquer le build
     }
   }
 
