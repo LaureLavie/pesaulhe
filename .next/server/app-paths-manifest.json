@@ -3,5 +3,6 @@
   "/chambres/page": "app/chambres/page.js",
   "/gite/page": "app/gite/page.js",
   "/blog/page": "app/blog/page.js",
-  "/contact/page": "app/contact/page.js"
+  "/contact/page": "app/contact/page.js",
+  "/reservation/page": "app/reservation/page.js"
 }
