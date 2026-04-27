@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Raleway } from "next/font/google";
 import "./globals.css";
-import { SectionHeader } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -40,8 +40,8 @@ export default function RootLayout({
 }) {
     return (
     <html lang="fr" className={`${cormorant.variable} ${raleway.variable}`}>
-      <body className="min-h-screen flex flex-col">
-        <SectionHeader title="Maison Pesaulhe" />
+      <body className="min-h-screen flex flex-col">   
+        <Navbar />     
         <main className="flex-1">{children}</main>
         <Footer />
       </body>

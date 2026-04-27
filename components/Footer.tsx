@@ -49,10 +49,10 @@ export function Footer() {
           <div className="flex items-center gap-3 text-sm text-white/70">
             <Mail className="size-4 text-secondary shrink-0" />
             <a
-              href="mailto:contact@maison-pesaulhe.fr"
+              href="mailto:mylene.lavie@gmail.com"
               className="hover:text-white transition-colors"
             >
-              contact@maison-pesaulhe.fr
+              mylene.lavie@gmail.com
             </a>
           </div>
           <div className="flex gap-4 pt-4">
@@ -65,7 +65,7 @@ export function Footer() {
               Booking
             </a>
             <a
-              href="https://www.airbnb.fr/users/show/118572487"
+              href="https://www.airbnb.fr/rooms/34531525?source_impression_id=p3_1777291392_P3UhBm10WMkAsanz"
               target="_blank"
               rel="noreferrer"
               className="text-xs uppercase tracking-widest text-white/50 hover:text-secondary transition-colors"
@@ -78,7 +78,7 @@ export function Footer() {
 
       <div className="container border-t border-white/10 py-6 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-white/30">
         <span>© {new Date().getFullYear()} Maison Pesaulhe. Tous droits réservés.</span>
-        <span className="font-display italic text-white/20">Plabiengut a Noste</span>
+        <span className="font-display italic text-white/10">Plabiengut a Noste</span>
       </div>
     </footer>
   );

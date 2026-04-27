@@ -3,7 +3,7 @@
   \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 300;
   font-display: swap;
@@ -12,7 +12,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 300;
   font-display: swap;
@@ -21,7 +21,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 300;
   font-display: swap;
@@ -30,7 +30,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 300;
   font-display: swap;
@@ -39,7 +39,7 @@
 }
 /* latin */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 300;
   font-display: swap;
@@ -48,7 +48,7 @@
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 400;
   font-display: swap;
@@ -57,7 +57,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 400;
   font-display: swap;
@@ -66,7 +66,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 400;
   font-display: swap;
@@ -75,7 +75,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 400;
   font-display: swap;
@@ -84,7 +84,7 @@
 }
 /* latin */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 400;
   font-display: swap;
@@ -93,7 +93,7 @@
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 500;
   font-display: swap;
@@ -102,7 +102,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 500;
   font-display: swap;
@@ -111,7 +111,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 500;
   font-display: swap;
@@ -120,7 +120,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 500;
   font-display: swap;
@@ -129,7 +129,7 @@
 }
 /* latin */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 500;
   font-display: swap;
@@ -138,7 +138,7 @@
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 600;
   font-display: swap;
@@ -147,7 +147,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 600;
   font-display: swap;
@@ -156,7 +156,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 600;
   font-display: swap;
@@ -165,7 +165,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 600;
   font-display: swap;
@@ -174,7 +174,7 @@
 }
 /* latin */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 600;
   font-display: swap;
@@ -183,7 +183,7 @@
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -192,7 +192,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -201,7 +201,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -210,7 +210,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -219,7 +219,7 @@
 }
 /* latin */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -228,7 +228,7 @@
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -237,7 +237,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -246,7 +246,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -255,7 +255,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -264,7 +264,7 @@
 }
 /* latin */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -273,7 +273,7 @@
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -282,7 +282,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -291,7 +291,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -300,7 +300,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -309,7 +309,7 @@
 }
 /* latin */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -318,7 +318,7 @@
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -327,7 +327,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -336,7 +336,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -345,7 +345,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -354,15 +354,15 @@
 }
 /* latin */
 @font-face {
-  font-family: '__Cormorant_Garamond_16bb0c';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
   src: url(/_next/static/media/7b89a4fd5e90ede0-s.p.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: '__Cormorant_Garamond_Fallback_16bb0c';src: local("Times New Roman");ascent-override: 95.27%;descent-override: 29.59%;line-gap-override: 0.00%;size-adjust: 96.98%
-}.__className_16bb0c {font-family: '__Cormorant_Garamond_16bb0c', '__Cormorant_Garamond_Fallback_16bb0c'
-}.__variable_16bb0c {--font-cormorant: '__Cormorant_Garamond_16bb0c', '__Cormorant_Garamond_Fallback_16bb0c'
+}@font-face {font-family: 'Cormorant Garamond Fallback';src: local("Times New Roman");ascent-override: 95.27%;descent-override: 29.59%;line-gap-override: 0.00%;size-adjust: 96.98%
+}.__className_16bb0c {font-family: 'Cormorant Garamond', 'Cormorant Garamond Fallback'
+}.__variable_16bb0c {--font-cormorant: 'Cormorant Garamond', 'Cormorant Garamond Fallback'
 }
 
 /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -370,7 +370,7 @@
   \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -379,7 +379,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -388,7 +388,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -397,7 +397,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -406,7 +406,7 @@
 }
 /* latin */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -415,7 +415,7 @@
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -424,7 +424,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -433,7 +433,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -442,7 +442,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -451,7 +451,7 @@
 }
 /* latin */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -460,7 +460,7 @@
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -469,7 +469,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -478,7 +478,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -487,7 +487,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -496,7 +496,7 @@
 }
 /* latin */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -505,7 +505,7 @@
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -514,7 +514,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -523,7 +523,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -532,7 +532,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -541,19 +541,19 @@
 }
 /* latin */
 @font-face {
-  font-family: '__Raleway_960c3b';
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
   src: url(/_next/static/media/630c17af355fa44e-s.p.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: '__Raleway_Fallback_960c3b';src: local("Arial");ascent-override: 90.51%;descent-override: 22.53%;line-gap-override: 0.00%;size-adjust: 103.86%
-}.__className_960c3b {font-family: '__Raleway_960c3b', '__Raleway_Fallback_960c3b';font-style: normal
-}.__variable_960c3b {--font-raleway: '__Raleway_960c3b', '__Raleway_Fallback_960c3b'
+}@font-face {font-family: 'Raleway Fallback';src: local("Arial");ascent-override: 90.51%;descent-override: 22.53%;line-gap-override: 0.00%;size-adjust: 103.86%
+}.__className_960c3b {font-family: 'Raleway', 'Raleway Fallback';font-style: normal
+}.__variable_960c3b {--font-raleway: 'Raleway', 'Raleway Fallback'
 }
 
 /*!*************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./app/globals.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./app/globals.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************/
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
@@ -1222,6 +1222,32 @@ video {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-width: 1px;
+  border-color: hsl(var(--border));
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: hsl(var(--foreground));
+    transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.btn-outline:hover {
+  background-color: hsl(var(--muted));
+}
+.btn-outline:focus-visible {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
 .btn-editorial {
   display: inline-flex;
   align-items: center;
@@ -1239,12 +1265,15 @@ video {
   color: hsl(var(--foreground));
   text-decoration-line: underline;
 }
-.btn-lg {
-  padding-left: 2.25rem;
-  padding-right: 2.25rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  font-size: 0.75rem;
+.btn-sm {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  font-size: 0.7rem;
+}
+.fixed {
+  position: fixed;
 }
 .absolute {
   position: absolute;
@@ -1255,24 +1284,27 @@ video {
 .inset-0 {
   inset: 0px;
 }
-.-bottom-12 {
-  bottom: -3rem;
+.left-0 {
+  left: 0px;
 }
-.-right-4 {
-  right: -1rem;
+.top-0 {
+  top: 0px;
 }
-.bottom-6 {
-  bottom: 1.5rem;
+.top-full {
+  top: 100%;
 }
-.left-1\/2 {
-  left: 50%;
+.-z-10 {
+  z-index: -10;
 }
-.z-10 {
-  z-index: 10;
+.z-50 {
+  z-index: 50;
 }
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+.mb-12 {
+  margin-bottom: 3rem;
 }
 .mb-16 {
   margin-bottom: 4rem;
@@ -1280,8 +1312,8 @@ video {
 .mb-2 {
   margin-bottom: 0.5rem;
 }
-.mb-3 {
-  margin-bottom: 0.75rem;
+.mb-4 {
+  margin-bottom: 1rem;
 }
 .mb-5 {
   margin-bottom: 1.25rem;
@@ -1289,23 +1321,23 @@ video {
 .mb-6 {
   margin-bottom: 1.5rem;
 }
-.mr-3 {
-  margin-right: 0.75rem;
+.mb-8 {
+  margin-bottom: 2rem;
 }
-.mt-10 {
-  margin-top: 2.5rem;
+.ml-2 {
+  margin-left: 0.5rem;
 }
-.mt-12 {
-  margin-top: 3rem;
+.ml-4 {
+  margin-left: 1rem;
+}
+.mr-2 {
+  margin-right: 0.5rem;
+}
+.mr-4 {
+  margin-right: 1rem;
 }
 .mt-4 {
   margin-top: 1rem;
-}
-.mt-6 {
-  margin-top: 1.5rem;
-}
-.mt-8 {
-  margin-top: 2rem;
 }
 .block {
   display: block;
@@ -1313,51 +1345,48 @@ video {
 .flex {
   display: flex;
 }
-.table {
-  display: table;
-}
 .grid {
   display: grid;
 }
 .hidden {
   display: none;
 }
-.aspect-\[3\/4\] {
-  aspect-ratio: 3/4;
-}
 .aspect-\[4\/3\] {
   aspect-ratio: 4/3;
 }
-.aspect-\[4\/5\] {
-  aspect-ratio: 4/5;
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+.aspect-video {
+  aspect-ratio: 16 / 9;
 }
 .size-4 {
   width: 1rem;
   height: 1rem;
 }
-.h-10 {
-  height: 2.5rem;
+.h-full {
+  height: 100%;
 }
-.min-h-\[100svh\] {
-  min-height: 100svh;
+.h-screen {
+  height: 100vh;
 }
 .min-h-screen {
   min-height: 100vh;
 }
-.w-2\/3 {
-  width: 66.666667%;
-}
 .w-full {
   width: 100%;
 }
-.w-px {
-  width: 1px;
-}
-.max-w-2xl {
-  max-width: 42rem;
-}
 .max-w-3xl {
   max-width: 48rem;
+}
+.max-w-4xl {
+  max-width: 56rem;
+}
+.max-w-5xl {
+  max-width: 64rem;
+}
+.max-w-7xl {
+  max-width: 80rem;
 }
 .max-w-xl {
   max-width: 36rem;
@@ -1371,36 +1400,20 @@ video {
 .shrink-0 {
   flex-shrink: 0;
 }
-.-translate-x-1\/2 {
-  --tw-translate-x: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-@keyframes pulse {
-
-  50% {
-    opacity: .5;
-  }
-}
-.animate-pulse {
-  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
 .cursor-pointer {
   cursor: pointer;
 }
 .flex-col {
   flex-direction: column;
 }
-.flex-wrap {
-  flex-wrap: wrap;
+.items-start {
+  align-items: flex-start;
 }
 .items-center {
   align-items: center;
 }
-.items-baseline {
-  align-items: baseline;
-}
-.justify-end {
-  justify-content: flex-end;
+.justify-center {
+  justify-content: center;
 }
 .justify-between {
   justify-content: space-between;
@@ -1436,31 +1449,46 @@ video {
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
-.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+.space-y-6 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 .overflow-hidden {
   overflow: hidden;
 }
-.whitespace-nowrap {
-  white-space: nowrap;
+.border {
+  border-width: 1px;
 }
-.border-8 {
-  border-width: 8px;
+.border-b {
+  border-bottom-width: 1px;
 }
 .border-t {
   border-top-width: 1px;
 }
-.border-background {
-  border-color: hsl(var(--background));
+.border-none {
+  border-style: none;
+}
+.border-border {
+  border-color: hsl(var(--border));
+}
+.border-border\/50 {
+  border-color: hsl(var(--border) / 0.5);
 }
 .border-white\/10 {
   border-color: rgb(255 255 255 / 0.1);
 }
-.bg-\[hsl\(var\(--surface-deep\)\)\] {
-  background-color: hsl(var(--surface-deep));
+.bg-accent {
+  background-color: hsl(var(--accent));
+}
+.bg-background {
+  background-color: hsl(var(--background));
+}
+.bg-background\/90 {
+  background-color: hsl(var(--background) / 0.9);
+}
+.bg-black\/30 {
+  background-color: rgb(0 0 0 / 0.3);
 }
 .bg-muted {
   background-color: hsl(var(--muted));
@@ -1471,52 +1499,37 @@ video {
 .bg-surface-warm {
   background-color: hsl(var(--surface-warm));
 }
+.bg-transparent {
+  background-color: transparent;
+}
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
-.bg-white\/40 {
-  background-color: rgb(255 255 255 / 0.4);
+.bg-\[url\(\'\/hero-pesaulhe\.jpg\'\)\] {
+  background-image: url('/hero-pesaulhe.jpg');
 }
-.bg-gradient-to-b {
-  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+.bg-cover {
+  background-size: cover;
 }
-.bg-gradient-to-t {
-  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+.bg-center {
+  background-position: center;
 }
-.from-\[hsl\(var\(--surface-deep\)\)\] {
-  --tw-gradient-from: hsl(var(--surface-deep)) var(--tw-gradient-from-position);
-  --tw-gradient-to: hsl(var(--surface-deep) / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+.p-0 {
+  padding: 0px;
 }
-.from-\[hsl\(var\(--surface-deep\)\)\]\/30 {
-  --tw-gradient-from: hsl(var(--surface-deep) / 0.3) var(--tw-gradient-from-position);
-  --tw-gradient-to: hsl(var(--surface-deep) / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+.p-3 {
+  padding: 0.75rem;
 }
-.via-\[hsl\(var\(--surface-deep\)\)\]\/10 {
-  --tw-gradient-to: hsl(var(--surface-deep) / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), hsl(var(--surface-deep) / 0.1) var(--tw-gradient-via-position), var(--tw-gradient-to);
-}
-.via-\[hsl\(var\(--surface-deep\)\)\]\/30 {
-  --tw-gradient-to: hsl(var(--surface-deep) / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), hsl(var(--surface-deep) / 0.3) var(--tw-gradient-via-position), var(--tw-gradient-to);
-}
-.to-\[hsl\(var\(--surface-deep\)\)\]\/80 {
-  --tw-gradient-to: hsl(var(--surface-deep) / 0.8) var(--tw-gradient-to-position);
-}
-.to-transparent {
-  --tw-gradient-to: transparent var(--tw-gradient-to-position);
-}
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.p-24 {
-  padding: 6rem;
+.p-4 {
+  padding: 1rem;
 }
 .p-8 {
   padding: 2rem;
+}
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 .py-16 {
   padding-top: 4rem;
@@ -1526,15 +1539,22 @@ video {
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+.pb-16 {
+  padding-bottom: 4rem;
+}
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
 .pb-20 {
   padding-bottom: 5rem;
-}
-.pt-2 {
-  padding-top: 0.5rem;
 }
 .pt-32 {
   padding-top: 8rem;
@@ -1542,8 +1562,8 @@ video {
 .pt-4 {
   padding-top: 1rem;
 }
-.text-left {
-  text-align: left;
+.pt-6 {
+  padding-top: 1.5rem;
 }
 .text-center {
   text-align: center;
@@ -1570,9 +1590,8 @@ video {
 .text-\[0\.65rem\] {
   font-size: 0.65rem;
 }
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
+.text-\[10px\] {
+  font-size: 10px;
 }
 .text-lg {
   font-size: 1.125rem;
@@ -1582,19 +1601,9 @@ video {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-.font-bold {
-  font-weight: 700;
-}
-.font-light {
-  font-weight: 300;
 }
 .font-medium {
   font-weight: 500;
@@ -1602,26 +1611,17 @@ video {
 .uppercase {
   text-transform: uppercase;
 }
+.lowercase {
+  text-transform: lowercase;
+}
 .italic {
   font-style: italic;
-}
-.leading-\[0\.95\] {
-  line-height: 0.95;
-}
-.leading-\[1\.05\] {
-  line-height: 1.05;
 }
 .leading-relaxed {
   line-height: 1.625;
 }
-.tracking-\[0\.22em\] {
-  letter-spacing: 0.22em;
-}
 .tracking-\[0\.3em\] {
   letter-spacing: 0.3em;
-}
-.tracking-tight {
-  letter-spacing: -0.025em;
 }
 .tracking-widest {
   letter-spacing: 0.1em;
@@ -1629,18 +1629,11 @@ video {
 .text-accent {
   color: hsl(var(--accent));
 }
-.text-foreground {
-  color: hsl(var(--foreground));
-}
 .text-foreground\/70 {
   color: hsl(var(--foreground) / 0.7);
 }
 .text-foreground\/80 {
   color: hsl(var(--foreground) / 0.8);
-}
-.text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity, 1));
 }
 .text-muted-foreground {
   color: hsl(var(--muted-foreground));
@@ -1652,8 +1645,8 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
-.text-white\/20 {
-  color: rgb(255 255 255 / 0.2);
+.text-white\/10 {
+  color: rgb(255 255 255 / 0.1);
 }
 .text-white\/30 {
   color: rgb(255 255 255 / 0.3);
@@ -1673,8 +1666,14 @@ video {
 .text-white\/80 {
   color: rgb(255 255 255 / 0.8);
 }
-.text-white\/85 {
-  color: rgb(255 255 255 / 0.85);
+.underline {
+  text-decoration-line: underline;
+}
+.line-through {
+  text-decoration-line: line-through;
+}
+.opacity-50 {
+  opacity: 0.5;
 }
 .shadow-editorial {
   --tw-shadow: 0 4px 40px -8px rgba(0,0,0,0.18);
@@ -1686,10 +1685,31 @@ video {
   --tw-shadow-colored: 0 8px 32px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+.shadow-soft {
+  --tw-shadow: 0 2px 20px -4px rgba(0,0,0,0.10);
+  --tw-shadow-colored: 0 2px 20px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.backdrop-blur-md {
+  --tw-backdrop-blur: blur(12px);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
 .transition-colors {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+.duration-500 {
+  transition-duration: 500ms;
 }
 .font-display {
     font-family: var(--font-cormorant, "Cormorant Garamond"), Georgia, serif;
@@ -1705,6 +1725,9 @@ video {
   }
 .shadow-editorial {
     box-shadow: 0 4px 40px -8px rgba(0, 0, 0, 0.18);
+  }
+.shadow-soft {
+    box-shadow: 0 2px 20px -4px rgba(0, 0, 0, 0.10);
   }
 .shadow-frame {
     box-shadow: 0 8px 32px -4px rgba(0, 0, 0, 0.22);
@@ -1735,124 +1758,76 @@ video {
 }
 
 /* ── Button variants ── */
-
+.first-letter\:uppercase::first-letter {
+  text-transform: uppercase;
+}
+.hover\:text-accent:hover {
+  color: hsl(var(--accent));
+}
 .hover\:text-secondary:hover {
   color: hsl(var(--secondary));
 }
-
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
-
+.focus\:border-accent:focus {
+  border-color: hsl(var(--accent));
+}
 .group:hover .group-hover\:scale-105 {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-
+.group:hover .group-hover\:text-accent {
+  color: hsl(var(--accent));
+}
 @media (min-width: 640px) {
 
   .sm\:flex-row {
     flex-direction: row;
   }
-
-  .sm\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
 }
-
 @media (min-width: 768px) {
-
-  .md\:block {
-    display: block;
-  }
 
   .md\:flex {
     display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:w-1\/3 {
+    width: 33.333333%;
   }
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .md\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+  .md\:flex-row {
+    flex-direction: row;
   }
 
-  .md\:text-5xl {
-    font-size: 3rem;
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-7xl {
+    font-size: 4.5rem;
     line-height: 1;
   }
-
-  .md\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
 }
-
 @media (min-width: 1024px) {
-
-  .lg\:-right-12 {
-    right: -3rem;
-  }
-
-  .lg\:col-span-6 {
-    grid-column: span 6 / span 6;
-  }
-
-  .lg\:grid-cols-12 {
-    grid-template-columns: repeat(12, minmax(0, 1fr));
-  }
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .lg\:flex-row {
-    flex-direction: row;
-  }
-
-  .lg\:items-end {
-    align-items: flex-end;
-  }
-
   .lg\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
-  }
-
-  .lg\:py-32 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
-
-  .lg\:pb-28 {
-    padding-bottom: 7rem;
-  }
-
-  .lg\:pl-8 {
-    padding-left: 2rem;
-  }
-
-  .lg\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .lg\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .lg\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .lg\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 }
