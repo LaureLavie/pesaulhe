@@ -15,10 +15,11 @@ export async function POST(req: Request) {
 
   try {
     await transporter.sendMail({
-      from: email,
+      from: process.env.EMAIL_USER,
       to: process.env.EMAIL_USER,
+      replyTo: email,
       subject: `Nouveau message de ${name} - Pesaulhe`,
-      text: message,
+      text: `De: ${name} (${email})\n\nMessage: ${message}`,
     });
     return NextResponse.json({ message: "Sent" }, { status: 200 });
   } catch (error) {

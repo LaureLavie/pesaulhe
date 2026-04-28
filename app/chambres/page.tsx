@@ -205,10 +205,10 @@ export default function ChambresPage() {
           <span className="rule mr-2" /> Pesaulhe{" "}
           <span className="rule ml-2" />
         </span>
-        <img src="https://res.cloudinary.com/immerswrite/image/upload/v1777293022/pesaulhe_hzuwff.jpg" alt="Pesaulhe" />
         <h1 className="text-5xl font-display italic mt-4">
           Les Chambres d'Hôtes
         </h1>
+        <img src="https://res.cloudinary.com/immerswrite/image/upload/v1777293022/pesaulhe_hzuwff.jpg" alt="Pesaulhe" className="mt-4"/>
         <p className="mt-4 text-muted-foreground text-sm max-w-md mx-auto">
           Cliquez sur le nom d'une chambre pour découvrir ses prestations.
         </p>

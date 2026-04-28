@@ -164,6 +164,7 @@ export default function GitePage() {
         <h1 className="text-5xl md:text-6xl font-display italic mb-6">
           Le Gîte Noulibos
         </h1>
+        <img src="https://res.cloudinary.com/immerswrite/image/upload/v1777367278/noulibos_jc2vip.avif" alt="Pesaulhe" className="mt-4"/>
         <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
           Une ancienne ferme béarnaise du XVIII<sup>e</sup> siècle, entièrement
           aménagée dans le respect de son âme. Noulibos vous ouvre ses portes pour des séjours en famille ou entre

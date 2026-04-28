@@ -40,7 +40,7 @@ export default function Navbar() {
           <span className="font-display text-2xl tracking-widest uppercase transition-soft group-hover:text-accent">
             Pesaulhe
           </span>
-          <span className="block text-[10px] tracking-[0.3em] uppercase text-muted-foreground text-black">
+          <span className="block text-[10px] tracking-[0.3em] uppercase text-muted-foreground text-black hover:text-accent">
             & Noulibos
           </span>
         </Link>
@@ -65,8 +65,8 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Toggle */}
-        <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
-          {isOpen ? <X size={24} /> : <Menu size={24} />}
+        <button className="md:hidden text-accent" onClick={() => setIsOpen(!isOpen)}>
+          {isOpen ? <X size={32} /> : <Menu size={32} />}
         </button>
       </div>
 

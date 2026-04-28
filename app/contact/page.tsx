@@ -14,7 +14,7 @@ export default function ContactPage() {
       message: e.target.message.value,
     };
 
-    const res = await fetch("/api/send-mail", {
+    const res = await fetch("/api/", {
       method: "POST",
       body: JSON.stringify(data),
     });
