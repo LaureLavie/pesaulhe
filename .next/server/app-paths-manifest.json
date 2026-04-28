@@ -1,8 +1,1 @@
-{
-  "/page": "app/page.js",
-  "/chambres/page": "app/chambres/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/histoire/page": "app/histoire/page.js",
-  "/reservation/page": "app/reservation/page.js",
-  "/contact/page": "app/contact/page.js"
-}
+{}
