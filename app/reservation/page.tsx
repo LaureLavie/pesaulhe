@@ -36,7 +36,7 @@ const CHAMBRES: Chambre[] = [
 ];
 
 const GITE_BASE_PRICE = 120;
-const GITE_CAPACITY_BASE = 8; // prix de base inclut 8 personnes
+const GITE_CAPACITY_BASE = 12; // prix de base inclut 12 personnes
 const GITE_EXTRA_PERSON_PRICE = 10; // par personne supplémentaire/nuit
 const GITE_MAX_CAPACITY = 12;
 const ANIMAL_FEE = 0; // admis sans supplément
