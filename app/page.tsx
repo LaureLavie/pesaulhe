@@ -7,7 +7,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center text-center px-6">
         <div className="absolute inset-0 -z-10 overflow-hidden">
-          {/* Image de fond avec ton animation Ken Burns */}
+          {/* Image de fond avec animation Ken Burns */}
           <div 
             className="w-full h-full bg-[url('/hero-pesaulhe.jpg')] bg-cover bg-center ken-burns"
             style={{ backgroundImage: "url('https://res.cloudinary.com/immerswrite/image/upload/v1777291127/vignes-vallees_qnyogb.webp')" }} 
@@ -26,7 +26,7 @@ export default function Home() {
           </h1>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/reservation" className="btn-hero">Réserver un séjour</Link>            
-            <Link href="/blog" className="btn-ghost-light">Découvrir le terroir</Link>
+            <Link href="/blog" className="btn-ghost-light">Blog Béarnais</Link>
           </div>
         </div>
       </section>
@@ -43,6 +43,31 @@ export default function Home() {
             <Link href="/chambres" className="btn-hero">Chambres d'hôte Pesaulhe</Link>            
             <Link href="/gite" className="btn-hero">Gîte Noulibos</Link>
           </div>
+      </section>
+
+      <section className="relative h-screen flex items-center justify-center text-center px-6">
+        <div className="absolute inset-0 -z-10 overflow-hidden">
+          {/* Image de fond avec animation Ken Burns */}
+          <div 
+            className="w-full h-full bg-[url('/hero-pesaulhe.jpg')] bg-cover bg-center ken-burns"
+            style={{ backgroundImage: "url('https://res.cloudinary.com/immerswrite/image/upload/v1777377489/IMGP3287-3500_l7dvvl.jpg')" }} 
+          />
+          <div className="absolute inset-0 bg-black/30" /> {/* Overlay pour la lisibilité */}
+        </div>
+
+        <div className="max-w-3xl fade-in-up">
+          <div className="text-white eyebrow justify-center mb-6">
+          <span className="rule mr-4" />
+            Qui sommes-nous ?
+            <span className="rule ml-4" />
+          </div>
+          <h1 className="text-5xl md:text-7xl text-white mb-8">
+            Notre histoire en <br /> quelques mots & images
+          </h1>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/histoire" className="btn-hero">Découvrir notre histoire</Link>
+          </div>
+        </div>
       </section>
     </main>
   )

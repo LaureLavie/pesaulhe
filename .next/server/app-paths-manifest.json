@@ -1,7 +1,6 @@
 {
   "/page": "app/page.js",
   "/chambres/page": "app/chambres/page.js",
-  "/gite/page": "app/gite/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/reservation/page": "app/reservation/page.js"
+  "/blog/page": "app/blog/page.js",
+  "/histoire/page": "app/histoire/page.js"
 }

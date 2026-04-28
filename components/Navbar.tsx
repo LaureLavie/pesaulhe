@@ -11,6 +11,7 @@ const navLinks = [
   { name: "Accueil", href: "/" },
   { name: "Chambres d'Hôtes", href: "/chambres" },
   { name: "Gîte", href: "/gite" },
+  { name: "Notre Histoire", href: "/histoire" },
   { name: "Blog", href: "/blog" },
   { name: "Contact", href: "/contact" },
 ];
