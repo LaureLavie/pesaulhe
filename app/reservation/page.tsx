@@ -2,6 +2,7 @@
 import { getCombinedBookings } from "@/lib/calendar";
 import CalendarView from "@/components/CalendarView";
 export const dynamic = 'force-dynamic';
+export const runtime = 'nodejs';
 
 export const revalidate = 3600; 
 

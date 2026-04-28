@@ -12,6 +12,7 @@ const nextConfig = {
     // Idem pour TypeScript si tu veux forcer le passage
     ignoreBuildErrors: true,
   },
+  serverExternalPackages: ['node-ical'],
 };
 
 
