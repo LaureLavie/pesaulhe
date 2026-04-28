@@ -40,7 +40,7 @@ export default function Navbar() {
           <span className="font-display text-2xl tracking-widest uppercase transition-soft group-hover:text-accent">
             Pesaulhe
           </span>
-          <span className="block text-[10px] tracking-[0.3em] uppercase text-muted-foreground">
+          <span className="block text-[10px] tracking-[0.3em] uppercase text-muted-foreground text-black">
             & Noulibos
           </span>
         </Link>
@@ -53,7 +53,7 @@ export default function Navbar() {
               href={link.href}
               className={cn(
                 "btn-editorial border-none p-0 lowercase first-letter:uppercase",
-                pathname === link.href ? "text-accent underline" : "text-foreground/70"
+                pathname === link.href ? "text-accent underline" : "text-foreground/70  text-black hover:text-accent"
               )}
             >
               {link.name}

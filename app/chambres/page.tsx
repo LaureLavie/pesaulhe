@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function ChambresPage() {
   const chambres = [
-    { name: "La Roussanne", desc: "Douceur et lumière avec vue sur les Pyrénées.", price: "50€" },
-    { name: "Manseng'Folies", desc: "Authenticité des poutres apparentes et mobilier chiné.", price: "80€" },
+    { image:"https://res.cloudinary.com/immerswrite/image/upload/v1777293018/peches_myouyc.jpg",name: "La Roussanne", desc: "Douceur et lumière avec vue sur les Pyrénées.", price: "50€" },
+    { image:"https://res.cloudinary.com/immerswrite/image/upload/v1777362072/mansengfoliesroom_keuxxy.avif", name: "Manseng'Folies", desc: "L'esprit du Vignoble du Jurançon", price: "60€" },
   ];
 
   return (
@@ -18,7 +18,7 @@ export default function ChambresPage() {
         {chambres.map((chambre, i) => (
           <div key={i} className="group">
             <div className="overflow-hidden shadow-editorial mb-6 aspect-[4/3] relative">
-              <div className="w-full h-full bg-muted transition-soft group-hover:scale-105 paper-texture" />
+              <img src={chambre.image} alt={chambre.name} className="w-full h-full bg-muted transition-soft group-hover:scale-105 paper-texture"/>
             </div>
             <h3 className="text-2xl font-display mb-2">{chambre.name}</h3>
             <p className="text-muted-foreground mb-4">{chambre.desc}</p>

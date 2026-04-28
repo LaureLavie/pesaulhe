@@ -39,9 +39,9 @@ export default function Home() {
             Entre les chambres d'hôtes de charme à Pesaulhe et l'indépendance du gîte Noulibos...
           </p>
         </div>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/chambres" className="btn-editorial">Chambres d'hôte Pesaulhe</Link>            
-            <Link href="/gite" className="btn-editorial">Gîte Noulibos</Link>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center mt-5">
+            <Link href="/chambres" className="btn-hero">Chambres d'hôte Pesaulhe</Link>            
+            <Link href="/gite" className="btn-hero">Gîte Noulibos</Link>
           </div>
       </section>
     </main>
