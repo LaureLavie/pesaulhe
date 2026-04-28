@@ -2,9 +2,10 @@ import Link from "next/link";
 import { Mail, MapPin } from "lucide-react";
 
 const navLinks = [
-  { href: "/ou-dormir", label: "Chambres d'hôtes & Gîte" },
-  { href: "/a-propos", label: "À propos" },
-  { href: "/explorer", label: "Le Béarn" },
+  { href: "/", label: "Accueil" },
+  { href: "/chambres", label: "Chambres d'hôtes" },
+  { href: "/gite", label: "Gîte" },
+  { href: "/blog", label: "Blog Béarnais" },
   { href: "/contact", label: "Contact" },
   { href: "/reserver", label: "Réserver" },
 ];
@@ -20,9 +21,42 @@ export function Footer() {
             Chambres d'hôtes & gîte · Béarn
           </p>
           <p className="text-sm leading-relaxed text-white/60 max-w-xs">
-            Anciennes fermes béarnaises de 1700 sur les coteaux de Monein,
-            au cœur du vignoble du Jurançon.
+            Vous pouvez nous suivre aussi sur :
           </p>
+          <div className="flex flex-wrap gap-4">
+            <a
+              href="https://www.esbarrits.fr/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-sm text-white/70 hover:text-accent transition-colors"
+            >
+              Esbarrits
+            </a>
+            <a
+              href="https://www.facebook.com/mylene.lavie"
+              target="_blank"
+              rel="noreferrer"
+              className="text-sm text-white/70 hover:text-accent transition-colors"
+            >
+              Facebook
+            </a>
+            <a
+              href="https://www.flickr.com/photos/mylavie/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-sm text-white/70 hover:text-accent transition-colors"
+            >
+              Flickr
+            </a>
+            <a
+              href="https://www.instagram.com/mylenelavie/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-sm text-white/70 hover:text-accent transition-colors"
+            >
+              Instagram
+            </a>
+          </div>
         </div>
 
         {/* Nav */}
