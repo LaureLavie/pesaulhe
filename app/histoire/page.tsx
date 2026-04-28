@@ -1,4 +1,4 @@
-"use client"; // Obligatoire dans Next.js (App Router) car on utilise du state (useState)
+"use client";
 
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -128,12 +128,15 @@ export default function Histoire() {
           <h2 className="text-5xl font-serif mb-16 text-center italic text-gray-800">
             Plabiengut a Noste!
           </h2>
+          <img src="https://res.cloudinary.com/immerswrite/image/upload/v1777291127/maison_ieqof9.jpg"
+            alt="Mylène et Jean-Paul Lavie, propriétaire de Pesaulhe & Noulibos"
+            className="w-full h-auto mb-5 object-contain object-center" />
 
           <div className="flex flex-col gap-12 text-lg leading-relaxed text-gray-700">
             {/* Présentation Mylène & Jean-Paul */}
             <div className="space-y-6">
               <p>
-                Coucou, c'est Mylène et Jean-Paul. Je suis née dans une petite ferme familiale du Béarn dans le terroir du Jurançon à Monein où j'ai pris racine.
+                Coucou, c'est Mylène.<br /> Je suis née dans une petite ferme familiale du Béarn dans le terroir du Jurançon à Monein où j'ai pris racine.
                 Avec mon mari Jean-Paul, nous travaillons toujours sur cette petite ferme familiale.
               </p>
               <p>
