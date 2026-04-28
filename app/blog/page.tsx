@@ -15,7 +15,7 @@ export default function BlogPage() {
             <div className="flex-1">
               <span className="eyebrow mb-2">{post.category} — {post.date}</span>
               <h2 className="text-3xl font-display mb-4 hover:text-accent cursor-pointer transition-soft">{post.title}</h2>
-              <p className="text-muted-foreground mb-6">Découvrez les coulisses de notre quotidien dans le Gers...</p>
+              <p className="text-muted-foreground mb-6">Découvrez les coulisses de notre quotidien dans le Béarn...</p>
               <button className="btn-editorial">Lire l'article</button>
             </div>
           </article>
