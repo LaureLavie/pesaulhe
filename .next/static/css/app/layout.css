@@ -2313,127 +2313,98 @@ video {
 }
 
 /* ── Button variants ── */
-
 .first-letter\:uppercase::first-letter {
   text-transform: uppercase;
 }
-
 .placeholder\:text-muted-foreground\/50::-moz-placeholder {
   color: hsl(var(--muted-foreground) / 0.5);
 }
-
 .placeholder\:text-muted-foreground\/50::placeholder {
   color: hsl(var(--muted-foreground) / 0.5);
 }
-
 .last\:border-b-0:last-child {
   border-bottom-width: 0px;
 }
-
 .hover\:border-accent:hover {
   border-color: hsl(var(--accent));
 }
-
 .hover\:border-accent\/30:hover {
   border-color: hsl(var(--accent) / 0.3);
 }
-
 .hover\:border-accent\/50:hover {
   border-color: hsl(var(--accent) / 0.5);
 }
-
 .hover\:border-foreground\/40:hover {
   border-color: hsl(var(--foreground) / 0.4);
 }
-
 .hover\:bg-accent\/15:hover {
   background-color: hsl(var(--accent) / 0.15);
 }
-
 .hover\:bg-black\/50:hover {
   background-color: rgb(0 0 0 / 0.5);
 }
-
 .hover\:bg-muted:hover {
   background-color: hsl(var(--muted));
 }
-
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
-
 .hover\:text-accent:hover {
   color: hsl(var(--accent));
 }
-
 .hover\:text-foreground:hover {
   color: hsl(var(--foreground));
 }
-
 .hover\:text-secondary:hover {
   color: hsl(var(--secondary));
 }
-
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
-
 .hover\:opacity-80:hover {
   opacity: 0.8;
 }
-
 .hover\:opacity-90:hover {
   opacity: 0.9;
 }
-
 .hover\:shadow-md:hover {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
-
 .focus\:border-accent:focus {
   border-color: hsl(var(--accent));
 }
-
 .active\:scale-90:active {
   --tw-scale-x: .9;
   --tw-scale-y: .9;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-
 .disabled\:cursor-not-allowed:disabled {
   cursor: not-allowed;
 }
-
 .disabled\:opacity-30:disabled {
   opacity: 0.3;
 }
-
 .group:hover .group-hover\:scale-105 {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-
 .group\/btn:hover .group-hover\/btn\:text-accent {
   color: hsl(var(--accent));
 }
-
 .group:hover .group-hover\:text-accent {
   color: hsl(var(--accent));
 }
-
 .group\/carousel:hover .group-hover\/carousel\:opacity-100 {
   opacity: 1;
 }
-
 .group:hover .group-hover\:opacity-100 {
   opacity: 1;
 }
-
 @media (min-width: 640px) {
 
   .sm\:block {
@@ -2448,7 +2419,6 @@ video {
     flex-direction: row;
   }
 }
-
 @media (min-width: 768px) {
 
   .md\:flex {
@@ -2504,7 +2474,6 @@ video {
     line-height: 1.75rem;
   }
 }
-
 @media (min-width: 1024px) {
 
   .lg\:sticky {

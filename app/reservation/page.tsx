@@ -620,7 +620,7 @@ Demandes particulières : ${notes || "Aucune"}
               <p className="text-xs text-muted-foreground mb-4 italic text-center">
                 {!checkIn ? "Cliquez sur une date d'arrivée"
                   : !checkOut ? "Maintenant sélectionnez votre date de départ"
-                  : nights < 1 ? <span className="text-amber-600 flex items-center gap-1 justify-center"><AlertCircle size={13} /> Séjour minimum 1 nuit</span>
+                  : nights < 1 ? <span className="text-amber-600 flex items-center gap-1 justify-center"><AlertCircle size={13} /> Séjour minimum {hebergement === "gite" ? "2 nuits" : "1 nuit"}</span>
                   : `${nights} nuit${nights >= 1 ? "s" : ""} · du ${formatShortDate(checkIn)} au ${formatShortDate(checkOut)}`
                 }
               </p>
@@ -645,7 +645,7 @@ Demandes particulières : ${notes || "Aucune"}
           )}
 
           {/* ── Étape 3 : Voyageurs ── */}
-          {checkIn && checkOut && nights >= 2 && (
+          {checkIn && checkOut && (hebergement === "gite" ? nights >= 2 : nights >= 1) && (
             <section className="border border-border p-6 transition-soft border-accent/40 shadow-editorial">
               <div className="flex items-center gap-3 mb-6">
                 <span className="w-7 h-7 rounded-full flex items-center justify-center text-xs font-medium border border-foreground bg-accent text-white border-accent">
@@ -725,7 +725,7 @@ Demandes particulières : ${notes || "Aucune"}
           )}
 
           {/* ── Étape 4 : Formulaire de contact ── */}
-          {checkIn && checkOut && nights >= 2 && (
+          {checkIn && checkOut && (hebergement === "gite" ? nights >= 2 : nights >= 1) && (
             <section className="border border-border p-6">
               <div className="flex items-center gap-3 mb-6">
                 <span className="w-7 h-7 rounded-full flex items-center justify-center text-xs font-medium border border-foreground">4</span>
@@ -878,7 +878,7 @@ Demandes particulières : ${notes || "Aucune"}
 
           {/* Lien direct */}
           <div className="text-center">
-            <p className="text-xs text-muted-foreground mb-3">Préférez-vous nous appeler ?</p>
+            <p className="text-xs text-muted-foreground mb-3">Si vous préférez : </p>
             <a href="/contact" className="btn-outline btn-sm w-full">
               Nous contacter directement
             </a>
