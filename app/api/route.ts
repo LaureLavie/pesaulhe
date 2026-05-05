@@ -54,3 +54,43 @@ export async function POST(req: Request) {
     return NextResponse.json({ error }, { status: 500 });
   }
 }
+
+const ICAL_URLS = [
+  process.env.AIRBNB_ICAL_URL!,   // URL iCal Airbnb
+  process.env.BOOKING_ICAL_URL!,    // URL iCal Booking.com
+];
+
+// Parser iCal minimaliste — extrait les VEVENT avec DTSTART / DTEND
+function parseIcal(text: string): { start: Date; end: Date }[] {
+  const ranges: { start: Date; end: Date }[] = [];
+  const events = text.split("BEGIN:VEVENT");
+
+  for (const block of events.slice(1)) {
+    const startMatch = block.match(/DTSTART(?:;VALUE=DATE)?[^:]*:(\d{8})/);
+    const endMatch = block.match(/DTEND(?:;VALUE=DATE)?[^:]*:(\d{8})/);
+    if (!startMatch || !endMatch) continue;
+
+    const parse = (s: string) =>
+      new Date(`${s.slice(0, 4)}-${s.slice(4, 6)}-${s.slice(6, 8)}T00:00:00`);
+
+    ranges.push({ start: parse(startMatch[1]), end: parse(endMatch[1]) });
+  }
+  return ranges;
+}
+
+export async function GET() {
+  try {
+    const results = await Promise.all(
+      ICAL_URLS.map(url => fetch(url, { next: { revalidate: 3600 } }).then(r => r.text()))
+    );
+
+    const ranges = results.flatMap(parseIcal);
+
+    return NextResponse.json(ranges.map(r => ({
+      start: r.start.toISOString(),
+      end: r.end.toISOString(),
+    })));
+  } catch (e) {
+    return NextResponse.json({ error: "Fetch failed" }, { status: 500 });
+  }
+}

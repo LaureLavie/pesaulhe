@@ -342,9 +342,20 @@ export default function ReservationPage() {
   const [phone, setPhone] = useState("");
   const [submitStatus, setSubmitStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
-  // Dates réservées (simulées — en prod, props server component)
-  // On ferait passer via props depuis un Server Component
-  const bookedRanges: { start: Date; end: Date }[] = [];
+ 
+  const [bookedRanges, setBookedRanges] = useState<{ start: Date; end: Date }[]>([]);
+
+  useEffect(() => {
+    fetch("/api/")
+      .then(r => r.json())
+      .then((data: { start: string; end: string }[]) => {
+        setBookedRanges(data.map(r => ({
+          start: new Date(r.start),
+          end:   new Date(r.end),
+        })));
+      })
+      .catch(console.error);
+  }, []);
 
   const maxPersons = hebergement === "gite" ? GITE_MAX_CAPACITY :
     hebergement === "chambres" && chambreSlug
