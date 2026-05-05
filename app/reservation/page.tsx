@@ -279,7 +279,7 @@ function PriceBreakdown({
     const chambre = CHAMBRES.find(c => c.slug === chambreSlug);
     if (chambre && nights > 0) {
       basePrice = chambre.price * nights;
-      lines.push({ label: `${chambre.name} · ${nights} nuit${nights > 1 ? "s" : ""} × ${chambre.price}€`, amount: basePrice });
+      lines.push({ label: `${chambre.name} · ${nights} nuit${nights >= 1 ? "s" : ""} × ${chambre.price}€`, amount: basePrice });
     }
   } else if (hebergement === "gite" && nights > 0) {
     basePrice = GITE_BASE_PRICE * nights;
@@ -384,7 +384,7 @@ export default function ReservationPage() {
 
   const canSubmit = hebergement &&
     (hebergement === "gite" || chambreSlug) &&
-    checkIn && checkOut && nights >= 2 &&
+    checkIn && checkOut && nights >= 1 &&
     name && email;
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -404,7 +404,7 @@ export default function ReservationPage() {
 Hébergement : ${hebergement === "gite" ? "Gîte Noulibos" : `Chambres d'hôtes Pesaulhe — ${chambre?.name}`}
 Arrivée : ${checkIn ? formatDate(checkIn) : "-"}
 Départ : ${checkOut ? formatDate(checkOut) : "-"}
-Durée : ${nights} nuit${nights > 1 ? "s" : ""}
+Durée : ${nights} nuit${nights >= 1 ? "s" : ""}
 Adultes : ${adults}
 Enfants : ${children}
 Total personnes : ${totalPersons}
@@ -620,8 +620,8 @@ Demandes particulières : ${notes || "Aucune"}
               <p className="text-xs text-muted-foreground mb-4 italic text-center">
                 {!checkIn ? "Cliquez sur une date d'arrivée"
                   : !checkOut ? "Maintenant sélectionnez votre date de départ"
-                  : nights < 2 ? <span className="text-amber-600 flex items-center gap-1 justify-center"><AlertCircle size={13} /> Séjour minimum 2 nuits</span>
-                  : `${nights} nuit${nights > 1 ? "s" : ""} · du ${formatShortDate(checkIn)} au ${formatShortDate(checkOut)}`
+                  : nights < 1 ? <span className="text-amber-600 flex items-center gap-1 justify-center"><AlertCircle size={13} /> Séjour minimum 1 nuit</span>
+                  : `${nights} nuit${nights >= 1 ? "s" : ""} · du ${formatShortDate(checkIn)} au ${formatShortDate(checkOut)}`
                 }
               </p>
 
