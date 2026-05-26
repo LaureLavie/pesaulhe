@@ -122,6 +122,7 @@ export default function AdminDashboard() {
             <button onClick={() => handleDelete(a.id)} className="bg-red-500 text-white px-3 py-1 rounded-lg font-medium hover:bg-red-600 transition-soft">Supprimer</button>
           </li>
         ))}
-      </ul>
-    </div>
-  );
+        </ul>
+      </div>
+    );
+  }
