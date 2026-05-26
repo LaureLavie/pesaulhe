@@ -1,7 +1,7 @@
 import { NextApiRequest } from 'next';
 import { serialize, parse } from 'cookie';
 
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'admin123';
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
 const COOKIE_NAME = 'admin_auth';
 const COOKIE_VALUE = 'admin_logged_in';
 
