@@ -1,6 +1,8 @@
 {
-  "/api/route": "app/api/route.js",
   "/page": "app/page.js",
   "/reservation/page": "app/reservation/page.js",
-  "/contact/page": "app/contact/page.js"
+  "/chambres/page": "app/chambres/page.js",
+  "/gite/page": "app/gite/page.js",
+  "/histoire/page": "app/histoire/page.js",
+  "/blog/page": "app/blog/page.js"
 }
