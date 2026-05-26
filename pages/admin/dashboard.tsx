@@ -75,40 +75,40 @@ export default function AdminDashboard() {
   return (
     <div className="min-h-screen bg-background p-8 flex flex-col items-center">
       <h1 className="text-4xl font-display font-bold mb-10 text-center italic tracking-tight text-primary">Dashboard Admin Blog</h1>
-      <form onSubmit={handleSubmit} className="mb-12 w-full max-w-xl bg-white/90 rounded-2xl shadow-editorial p-8 flex flex-col gap-5 border border-border">
-        <div>
-          <label className="block text-sm font-medium text-primary mb-1">Titre</label>
-          <input name="title" value={form.title} onChange={handleChange} placeholder="Titre" className="w-full border border-border rounded-lg p-3 focus:ring-2 focus:ring-accent focus:outline-none transition-soft font-display text-lg" />
-        </div>
-        <div>
-          <label className="block text-sm font-medium text-primary mb-1">Description</label>
-          <input name="description" value={form.description} onChange={handleChange} placeholder="Description" className="w-full border border-border rounded-lg p-3 focus:ring-2 focus:ring-accent focus:outline-none transition-soft" />
-        </div>
-        <div>
-          <label className="block text-sm font-medium text-primary mb-1">Contenu texte</label>
-          <textarea name="content" value={form.content} onChange={handleChange} placeholder="Contenu texte" rows={5} className="w-full border border-border rounded-lg p-3 focus:ring-2 focus:ring-accent focus:outline-none transition-soft resize-none" />
-        </div>
-        <div className="flex gap-4">
-          <div className="flex-1">
-            <label className="block text-sm font-medium text-primary mb-1">Date</label>
-            <input name="date" value={form.date} onChange={handleChange} placeholder="Date (ex: Octobre 2025)" className="w-full border border-border rounded-lg p-3 focus:ring-2 focus:ring-accent focus:outline-none transition-soft" />
-          </div>
-          <div className="flex-1">
-            <label className="block text-sm font-medium text-primary mb-1">Image</label>
-            <input type="file" accept="image/*" onChange={handleImage} className="w-full border border-border rounded-lg p-2 focus:ring-2 focus:ring-accent focus:outline-none transition-soft bg-white" />
-          </div>
-        </div>
-        {form.image && (
-          <div className="flex flex-col items-center mt-2">
-            <span className="text-xs text-muted-foreground mb-1">Aperçu de l'image</span>
-            <img src={form.image} alt="aperçu" className="w-40 h-28 object-cover rounded-lg shadow-soft border border-border" />
-          </div>
-        )}
-        <div className="flex gap-4 mt-2">
-          <button type="submit" className="flex-1 bg-accent text-accent-foreground font-semibold py-3 rounded-lg shadow-editorial hover:bg-accent/90 transition-soft text-lg">{editId ? 'Modifier' : 'Ajouter'}</button>
-          {editId && <button type="button" onClick={() => { setEditId(null); setForm({ title: '', description: '', content: '', image: '', date: '' }); }} className="flex-1 bg-muted text-muted-foreground font-semibold py-3 rounded-lg border border-border hover:bg-muted/80 transition-soft">Annuler</button>}
-        </div>
-      </form>
+      <form onSubmit={handleSubmit} className="mb-12 w-full max-w-xl bg-white/95 rounded-3xl shadow-editorial p-10 flex flex-col gap-7 border border-border">
+  <div className="flex flex-col gap-1">
+    <label className="block text-base font-semibold text-primary mb-1 font-display">Titre</label>
+    <input name="title" value={form.title} onChange={handleChange} placeholder="Titre de l'article" className="w-full border border-border rounded-xl p-4 focus:ring-2 focus:ring-accent focus:outline-none transition-soft font-display text-lg bg-background/60 placeholder:text-muted-foreground" />
+  </div>
+  <div className="flex flex-col gap-1">
+    <label className="block text-base font-semibold text-primary mb-1 font-display">Description</label>
+    <input name="description" value={form.description} onChange={handleChange} placeholder="Courte description (affichée sur la page blog)" className="w-full border border-border rounded-xl p-4 focus:ring-2 focus:ring-accent focus:outline-none transition-soft bg-background/60 placeholder:text-muted-foreground" />
+  </div>
+  <div className="flex flex-col gap-1">
+    <label className="block text-base font-semibold text-primary mb-1 font-display">Contenu texte</label>
+    <textarea name="content" value={form.content} onChange={handleChange} placeholder="Contenu complet de l'article" rows={6} className="w-full border border-border rounded-xl p-4 focus:ring-2 focus:ring-accent focus:outline-none transition-soft resize-none bg-background/60 placeholder:text-muted-foreground" />
+  </div>
+  <div className="flex gap-4">
+    <div className="flex-1 flex flex-col gap-1">
+      <label className="block text-base font-semibold text-primary mb-1 font-display">Date</label>
+      <input name="date" value={form.date} onChange={handleChange} placeholder="Date (ex: Octobre 2025)" className="w-full border border-border rounded-xl p-4 focus:ring-2 focus:ring-accent focus:outline-none transition-soft bg-background/60 placeholder:text-muted-foreground" />
+    </div>
+    <div className="flex-1 flex flex-col gap-1">
+      <label className="block text-base font-semibold text-primary mb-1 font-display">Image</label>
+      <input type="file" accept="image/*" onChange={handleImage} className="w-full border border-border rounded-xl p-2 focus:ring-2 focus:ring-accent focus:outline-none transition-soft bg-white" />
+    </div>
+  </div>
+  {form.image && (
+    <div className="flex flex-col items-center mt-2">
+      <span className="text-xs text-muted-foreground mb-1">Aperçu de l'image</span>
+      <img src={form.image} alt="aperçu" className="w-40 h-28 object-cover rounded-xl shadow-soft border border-border" />
+    </div>
+  )}
+  <div className="flex gap-4 mt-2">
+    <button type="submit" className="flex-1 bg-accent text-accent-foreground font-semibold py-3 rounded-xl shadow-editorial hover:bg-accent/90 transition-soft text-lg font-display tracking-wide">{editId ? 'Modifier' : 'Ajouter'}</button>
+    {editId && <button type="button" onClick={() => { setEditId(null); setForm({ title: '', description: '', content: '', image: '', date: '' }); }} className="flex-1 bg-muted text-muted-foreground font-semibold py-3 rounded-xl border border-border hover:bg-muted/80 transition-soft">Annuler</button>}
+  </div>
+</form>
       <ul className="w-full max-w-2xl space-y-4">
         {articles.map(a => (
           <li key={a.id} className="flex items-center gap-4 bg-white rounded-xl shadow-soft p-4 border border-border">
