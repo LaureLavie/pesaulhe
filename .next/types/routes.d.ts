@@ -3,7 +3,7 @@
 
 type AppRoutes = "/" | "/blog" | "/chambres" | "/contact" | "/gite" | "/histoire" | "/legal" | "/reservation"
 type AppRouteHandlerRoutes = "/api"
-type PageRoutes = never
+type PageRoutes = "/admin-login" | "/admin/dashboard"
 type LayoutRoutes = "/"
 type RedirectRoutes = never
 type RewriteRoutes = never
@@ -12,6 +12,8 @@ type Routes = AppRoutes | PageRoutes | LayoutRoutes | RedirectRoutes | RewriteRo
 
 interface ParamMap {
   "/": {}
+  "/admin-login": {}
+  "/admin/dashboard": {}
   "/api": {}
   "/blog": {}
   "/chambres": {}

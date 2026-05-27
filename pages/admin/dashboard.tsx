@@ -1,8 +1,6 @@
-"use client";
-
 import { useEffect, useState, ChangeEvent } from 'react';
 import { useRouter } from 'next/router';
-import '../../styles/admin.css';
+import '../../app/globals.css';
 
 interface Article {
   id: string;
