@@ -82,8 +82,13 @@ export default function AdminDashboard() {
     setPreviewName('');
   };
 
+  if (loading) {
+    return <div className="ad-loading">Chargement…</div>;
+  }
+
   return (
     <>
+     
       <div className="ad-root">
 
         <header className="ad-header">
