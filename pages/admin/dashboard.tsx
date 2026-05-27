@@ -40,7 +40,7 @@ export default function AdminDashboard() {
       setLoading(false);
     });
 
-  useEffect(() => { fetchArticles(); }, [router]);
+  useEffect(() => { fetchArticles(); }, []);
 
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setForm({ ...form, [e.target.name]: e.target.value });
