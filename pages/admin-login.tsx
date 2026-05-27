@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
-import '../app/globals.css';
 
 export default function AdminLogin() {
   const [password, setPassword] = useState('');

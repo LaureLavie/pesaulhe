@@ -1,6 +1,5 @@
 import { useEffect, useState, ChangeEvent } from 'react';
 import { useRouter } from 'next/router';
-import '../../app/globals.css';
 
 interface Article {
   id: string;
