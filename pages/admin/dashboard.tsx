@@ -83,11 +83,7 @@ export default function AdminDashboard() {
   };
 
   const styles = (
-    <Head>
-      <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Raleway:wght@300;400;500;600&display=swap"
-        rel="stylesheet"
-      />
+    <Head>      
       <style>{`
         .ad-root {
           min-height: 100vh;
