@@ -22,8 +22,21 @@ export default function AdminDashboard() {
 
   const fetchArticles = () =>
     fetch('/api/admin/articles').then(async res => {
-      if (res.status === 401) router.push('/admin-login');
-      else setArticles(await res.json());
+      if (res.status === 401) {
+        router.push('/admin-login');
+        return;
+      }
+      if (!res.ok) {
+        console.error('Erreur API:', res.status);
+        setLoading(false);
+        return;
+      }
+      const data = await res.json();
+      setArticles(Array.isArray(data) ? data : []); // ← protection contre un objet d'erreur
+      setLoading(false);
+    })
+    .catch(err => {
+      console.error('Fetch échoué:', err);
       setLoading(false);
     });
 
