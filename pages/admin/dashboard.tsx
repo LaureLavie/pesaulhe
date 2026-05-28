@@ -22,6 +22,7 @@ export default function AdminDashboard() {
 
   const fetchArticles = () =>
     fetch('/api/admin/articles').then(async res => {
+      console.log('Réponse API:', res.status);
       if (res.status === 401) {
         router.push('/admin-login');
         return;
@@ -30,10 +31,12 @@ export default function AdminDashboard() {
         console.error('Erreur API:', res.status);
         setLoading(false);
         return;
+        console.error('Erreur API:', res.status);
       }
       const data = await res.json();
       setArticles(Array.isArray(data) ? data : []);
       setLoading(false);
+      console.log('Articles chargés:', data);
     })
     .catch(err => {
       console.error('Fetch échoué:', err);
@@ -41,6 +44,7 @@ export default function AdminDashboard() {
     });
 
   useEffect(() => { fetchArticles(); }, []);
+  console.log('État des articles:', articles);
 
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -96,6 +100,7 @@ export default function AdminDashboard() {
   };
 
   if (loading) {
+    console.log('Chargement en cours...');
     return <div className="ad-loading">Chargement…</div>;
   }
 
