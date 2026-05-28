@@ -22,29 +22,27 @@ export default function AdminDashboard() {
 
   const fetchArticles = () =>
     fetch('/api/admin/articles').then(async res => {
-      console.log('Réponse API:', res.status);
       if (res.status === 401) {
         router.push('/admin-login');
         return;
       }
-      if (!res.ok) {
-        console.error('Erreur API:', res.status);
+      if (!res.ok) {        
         setLoading(false);
         return;
-        console.error('Erreur API:', res.status);
       }
       const data = await res.json();
-      setArticles(Array.isArray(data) ? data : []);
-      setLoading(false);
-      console.log('Articles chargés:', data);
+      setArticles(Array.isArray(data) ? data : []);      
     })
     .catch(err => {
-      console.error('Fetch échoué:', err);
+      console.error('Erreur lors du chargement des articles:', err);
+    })
+    .finally(() => {
       setLoading(false);
     });
 
-  useEffect(() => { fetchArticles(); }, []);
-  console.log('État des articles:', articles);
+useEffect(() => { 
+  fetchArticles(); 
+}, []);
 
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -63,16 +61,22 @@ export default function AdminDashboard() {
     e.preventDefault();
     if (!form.title || !form.description || !form.content || !form.date) return;
     setSaving(true);
-    const method = editId ? 'PUT' : 'POST';
-    await fetch('/api/admin/articles', {
-      method,
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ ...form, id: editId }),
-    });
-    setSaving(false);
-    resetForm();
-    setLoading(true);
-    fetchArticles();
+
+    try{
+      const method = editId ? 'PUT' : 'POST';
+      await fetch('/api/admin/articles', {
+        method,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...form, id: editId }),
+      });
+      setSaving(false);
+      resetForm();
+      await fetchArticles();
+
+    } catch (error) {
+      console.error('Erreur lors de la sauvegarde de l\'article:', error);
+      setSaving(false);
+    }
   };
 
   const handleDelete = async (id: string) => {
@@ -81,9 +85,8 @@ export default function AdminDashboard() {
       method: 'DELETE',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ id }),
-    });
-    setLoading(true);
-    fetchArticles();
+    });  
+    await fetchArticles();
   };
 
   const handleEdit = (a: Article) => {
@@ -100,7 +103,6 @@ export default function AdminDashboard() {
   };
 
   if (loading) {
-    console.log('Chargement en cours...');
     return <div className="ad-loading">Chargement…</div>;
   }
 
