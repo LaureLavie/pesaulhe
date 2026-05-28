@@ -10,6 +10,7 @@ export default function AdminLogin() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    console.log('Tentative de connexion avec le mot de passe:', password);
     setError('');
     setLoading(true);
     const res = await fetch('/api/admin/login', {
@@ -18,11 +19,13 @@ export default function AdminLogin() {
       body: JSON.stringify({ password }),
     });
     setLoading(false);
+    console.log('Réponse de l\'API de connexion:', res.status);
     if (res.ok) {
       router.push('/admin/dashboard');
     } else {
       setError('Mot de passe incorrect');
     }
+    console.log('État après tentative de connexion:', { error, loading });
   };
 
   return (
