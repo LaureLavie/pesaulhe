@@ -32,7 +32,7 @@ export default function AdminDashboard() {
         return;
       }
       const data = await res.json();
-      setArticles(Array.isArray(data) ? data : []); // ← protection contre un objet d'erreur
+      setArticles(Array.isArray(data) ? data : []);
       setLoading(false);
     })
     .catch(err => {
