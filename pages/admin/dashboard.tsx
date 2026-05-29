@@ -2,7 +2,7 @@ import { useEffect, useState, ChangeEvent } from 'react';
 import { useRouter } from 'next/router';
 import { GetServerSideProps } from 'next';
 import { parse } from 'cookie';
-import '../../app/globals.css';
+import '../../styles/admin.css';
 
 interface Article {
   id: string;

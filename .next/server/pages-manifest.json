@@ -3,6 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/admin-login": "pages/admin-login.js",
-  "/admin/dashboard": "pages/admin/dashboard.js",
-  "/api/admin/articles": "pages/api/admin/articles.js"
+  "/admin/dashboard": "pages/admin/dashboard.js"
 }
