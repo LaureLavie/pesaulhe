@@ -119,46 +119,46 @@ useEffect(() => {
   };
 
   if (loading) {
-    return <div className="ad-loading">Chargement…</div>;
+    return <div className="admin-loading">Chargement…</div>;
   }
 
   return (
     <>     
-      <div className="ad-root">
+      <div className="admin-root">
 
-        <header className="ad-header">
-          <p className="ad-eyebrow">
-            <span className="ad-eyebrow-line" />
+        <header className="admin-header">
+          <p className="admin-eyebrow">
+            <span className="admin-eyebrow-line" />
             Pesaulhe
-            <span className="ad-eyebrow-line" />
+            <span className="admin-eyebrow-line" />
           </p>
-          <h1 className="ad-title">Tableau de bord</h1>
+          <h1 className="admin-title">Tableau de bord</h1>
         </header>
 
-        <div className="ad-layout">
+        <div className="admin-layout">
 
           <section>
-            <h2 className="ad-section-title">
+            <h2 className="admin-section-title">
               {editId ? "Modifier l'article" : 'Nouvel article'}
             </h2>
-            <div className="ad-form-card">
+            <div className="admin-form-card">
               <form onSubmit={handleSubmit} noValidate>
-                <div className="ad-form-grid">
+                <div className="admin-form-grid">
 
                   {editId && (
-                    <div className="ad-form-full">
-                      <div className="ad-edit-banner">
+                    <div className="admin-form-full">
+                      <div className="admin-edit-banner">
                         Vous modifiez un article existant. Vos changements écraseront la version publiée.
                       </div>
                     </div>
                   )}
 
-                  <div className="ad-field ad-form-full">
-                    <label className="ad-label" htmlFor="f-title">Titre</label>
+                  <div className="admin-field admin-form-full">
+                    <label className="admin-label" htmlFor="f-title">Titre</label>
                     <input
                       id="f-title"
                       name="title"
-                      className="ad-input"
+                      className="admin-input"
                       value={form.title}
                       onChange={handleChange}
                       placeholder="Titre de l'article"
@@ -166,24 +166,24 @@ useEffect(() => {
                     />
                   </div>
 
-                  <div className="ad-field ad-form-full">
-                    <label className="ad-label" htmlFor="f-desc">Description</label>
+                  <div className="admin-field admin-form-full">
+                    <label className="admin-label" htmlFor="f-desc">Description</label>
                     <input
                       id="f-desc"
                       name="description"
-                      className="ad-input"
+                      className="admin-input"
                       value={form.description}
                       onChange={handleChange}
                       placeholder="Courte description affichée sur la page blog"
                     />
                   </div>
 
-                  <div className="ad-field ad-form-full">
-                    <label className="ad-label" htmlFor="f-content">Contenu</label>
+                  <div className="admin-field admin-form-full">
+                    <label className="admin-label" htmlFor="f-content">Contenu</label>
                     <textarea
                       id="f-content"
                       name="content"
-                      className="ad-textarea"
+                      className="admin-textarea"
                       value={form.content}
                       onChange={handleChange}
                       placeholder="Contenu complet de l'article…"
@@ -191,44 +191,44 @@ useEffect(() => {
                     />
                   </div>
 
-                  <div className="ad-field">
-                    <label className="ad-label" htmlFor="f-date">Date</label>
+                  <div className="admin-field">
+                    <label className="admin-label" htmlFor="f-date">Date</label>
                     <input
                       id="f-date"
                       name="date"
-                      className="ad-input"
+                      className="admin-input"
                       value={form.date}
                       onChange={handleChange}
                       placeholder="ex : Octobre 2025"
                     />
                   </div>
 
-                  <div className="ad-field">
-                    <span className="ad-label">Image</span>
-                    <label className="ad-file-label" htmlFor="f-image">
+                  <div className="admin-field">
+                    <span className="admin-label">Image</span>
+                    <label className="admin-file-label" htmlFor="f-image">
                       ↑ Choisir un fichier
                     </label>
                     <input
                       id="f-image"
                       type="file"
                       accept="image/*"
-                      className="ad-file-input"
+                      className="admin-file-input"
                       onChange={handleImage}
                     />
                     {form.image && (
-                      <div className="ad-preview">
+                      <div className="admin-preview">
                         <img src={form.image} alt="aperçu" />
-                        <span className="ad-preview-name">{previewName || 'Image sélectionnée'}</span>
+                        <span className="admin-preview-name">{previewName || 'Image sélectionnée'}</span>
                       </div>
                     )}
                   </div>
 
-                  <div className="ad-form-actions">
-                    <button type="submit" className="ad-btn-primary" disabled={saving}>
+                  <div className="admin-form-actions">
+                    <button type="submit" className="admin-btn-primary" disabled={saving}>
                       {saving ? 'Enregistrement…' : editId ? "Enregistrer les modifications" : "Publier l'article"}
                     </button>
                     {editId && (
-                      <button type="button" className="ad-btn-secondary" onClick={resetForm}>
+                      <button type="button" className="admin-btn-secondary" onClick={resetForm}>
                         Annuler
                       </button>
                     )}
@@ -240,30 +240,30 @@ useEffect(() => {
           </section>
 
           <section>
-            <h2 className="ad-section-title">Articles publiés</h2>
-            <div className="ad-divider">
-              <span className="ad-divider-line" />
-              <span className="ad-divider-diamond" />
-              <span className="ad-divider-line" />
+            <h2 className="admin-section-title">Articles publiés</h2>
+            <div className="admin-divider">
+              <span className="admin-divider-line" />
+              <span className="admin-divider-diamond" />
+              <span className="admin-divider-line" />
             </div>
 
             {articles.length === 0 ? (
-              <div className="ad-empty">Aucun article pour le moment</div>
+              <div className="admin-empty">Aucun article pour le moment</div>
             ) : (
-              <ul className="ad-list">
+              <ul className="admin-list">
                 {articles.map(a => (
-                  <li key={a.id} className="ad-list-item">
-                    <img src={a.image} alt="" className="ad-list-img" />
-                    <div className="ad-list-body">
-                      <div className="ad-list-title">{a.title}</div>
-                      <div className="ad-list-desc">{a.description}</div>
-                      <div className="ad-list-date">{a.date}</div>
+                  <li key={a.id} className="admin-list-item">
+                    <img src={a.image} alt="" className="admin-list-img" />
+                    <div className="admin-list-body">
+                      <div className="admin-list-title">{a.title}</div>
+                      <div className="admin-list-desc">{a.description}</div>
+                      <div className="admin-list-date">{a.date}</div>
                     </div>
-                    <div className="ad-list-actions">
-                      <button className="ad-action-edit" onClick={() => handleEdit(a)}>
+                    <div className="admin-list-actions">
+                      <button className="admin-action-edit" onClick={() => handleEdit(a)}>
                         Modifier
                       </button>
-                      <button className="ad-action-delete" onClick={() => handleDelete(a.id)}>
+                      <button className="admin-action-delete" onClick={() => handleDelete(a.id)}>
                         Supprimer
                       </button>
                     </div>
