@@ -1,5 +1,7 @@
 import { useEffect, useState, ChangeEvent } from 'react';
 import { useRouter } from 'next/router';
+import { GetServerSideProps } from 'next';
+import { parse } from 'cookie';
 import '../../app/globals.css';
 
 interface Article {
@@ -10,6 +12,22 @@ interface Article {
   image: string;
   date: string;
 }
+
+export const getServerSideProps: GetServerSideProps = async (context) => {
+  const { req } = context;
+  const cookies = req.headers.cookie ? parse(req.headers.cookie) : {};
+
+  if (cookies['admin_auth'] !== 'admin_logged_in') {
+    return {
+      redirect: {
+        destination: '/admin/login',
+        permanent: false,
+      },
+    };
+  }
+
+  return { props: {} };
+};
 
 export default function AdminDashboard() {
   const [articles, setArticles] = useState<Article[]>([]);
