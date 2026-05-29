@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { ADMIN_PASSWORD, setAdminCookie, clearAdminCookie } from '../../../../lib/auth';
+import { ADMIN_PASSWORD, setAdminCookie, clearAdminCookie } from '../../../lib/auth';
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === 'POST') {

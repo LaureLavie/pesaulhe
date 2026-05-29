@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import pool from '../../../../lib/db';
-import { isAdminAuthenticated } from '../../../../lib/auth';
+import pool from '../../../lib/db';
+import { isAdminAuthenticated } from '../../../lib/auth';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (!isAdminAuthenticated(req)) {
