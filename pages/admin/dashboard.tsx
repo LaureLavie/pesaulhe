@@ -44,15 +44,13 @@ export default function AdminDashboard() {
         router.push('/admin-login');
         return;
       }
-      if (!res.ok) {        
-        setLoading(false);
+      if (!res.ok) {                
         return;
       }
       const data = await res.json();
       setArticles(Array.isArray(data) ? data : []);      
     })
-    .catch(err => {
-      console.error('Erreur lors du chargement des articles:', err);
+    .catch(err => {      
     })
     .finally(() => {
       setLoading(false);
