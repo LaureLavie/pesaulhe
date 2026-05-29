@@ -41,7 +41,7 @@ export default function AdminDashboard() {
   const fetchArticles = () =>
     fetch('/api/admin/articles').then(async res => {
       if (res.status === 401) {
-        router.push('/admin-login');
+        router.push('/admin/login');
         return;
       }
       if (!res.ok) {                
@@ -123,8 +123,7 @@ useEffect(() => {
   }
 
   return (
-    <>
-     
+    <>     
       <div className="ad-root">
 
         <header className="ad-header">
