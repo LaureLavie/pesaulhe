@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 export default function BlogPage() {
   const [posts, setPosts] = useState<any[]>([]);
@@ -16,6 +17,7 @@ export default function BlogPage() {
       <h1 className="text-5xl font-display mb-16 text-center italic">Le Journal de Pesaulhe & Noulibos</h1>
       <div className="grid gap-16">
         {posts.map((post, i) => (
+          <Link href={`/blog/${post.id}`}>          
           <article key={i} className="flex flex-col md:flex-row gap-8 items-center border-b border-border pb-16">
             {post.image ? (
               <img src={post.image} alt={post.title} className="w-full md:w-1/3 aspect-video object-cover rounded bg-muted paper-texture" />
@@ -29,6 +31,7 @@ export default function BlogPage() {
               <button className="btn-editorial">Lire l'article</button>
             </div>
           </article>
+            </Link>
         ))}
       </div>
     </main>
